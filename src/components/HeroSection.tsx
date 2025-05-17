@@ -1,6 +1,6 @@
 
 import React, { useState, useEffect } from 'react';
-import { ArrowRight } from 'lucide-react';
+import { ArrowRight, WhatsApp } from 'lucide-react';
 import CountdownTimer from './CountdownTimer';
 import { Button } from '@/components/ui/button';
 
@@ -39,16 +39,17 @@ const HeroSection = () => {
               </Button>
             </a>
             <a 
-              href="https://api.whatsapp.com/send/?phone=919067572205&text&type=phone_number" 
+              href="https://chat.whatsapp.com/LsXIdSWapEQHNzGaaAuBpF" 
               target="_blank" 
               rel="noopener noreferrer"
             >
               <Button 
                 variant="outline" 
-                className="border-learntech-blue text-learntech-blue hover:bg-learntech-blue/10 w-full sm:w-auto"
+                className="border-learntech-blue text-learntech-blue hover:bg-learntech-blue/10 w-full sm:w-auto flex items-center gap-2"
                 size="lg"
               >
-                Contact Us
+                <WhatsApp size={18} />
+                Join WhatsApp Group
               </Button>
             </a>
           </div>
@@ -64,8 +65,8 @@ const HeroSection = () => {
             <div className="absolute -top-6 -left-6 w-24 h-24 bg-learntech-green/20 rounded-full filter blur-xl"></div>
             <div className="absolute -bottom-8 -right-8 w-32 h-32 bg-learntech-blue/20 rounded-full filter blur-xl"></div>
             <img 
-              src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=700&q=80" 
-              alt="Student with laptop" 
+              src="https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80" 
+              alt="Engineering Consultation" 
               className="rounded-lg shadow-xl object-cover w-full h-[500px] card-shadow"
             />
           </div>

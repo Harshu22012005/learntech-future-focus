@@ -53,13 +53,9 @@ const Navbar = () => {
         <div className="flex items-center">
           <div className="flex items-center mr-4">
             <img 
-              src="/logo.png" 
+              src="/lovable-uploads/f3315a41-1591-42c1-a1f2-bae47cc4f666.png" 
               alt="LearnTech Logo" 
-              className="h-10 md:h-12" 
-              onError={(e) => {
-                // Fallback if logo doesn't exist yet
-                e.currentTarget.src = "https://via.placeholder.com/150x50?text=LearnTech";
-              }}
+              className="h-16 md:h-20" 
             />
           </div>
         </div>

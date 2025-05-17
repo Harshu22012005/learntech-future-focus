@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Instagram, Mail, Phone } from 'lucide-react';
+import { Instagram, Mail, Phone, WhatsApp } from 'lucide-react';
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -10,7 +10,14 @@ const Footer = () => {
       <div className="container-custom">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12 mb-12">
           <div>
-            <h3 className="text-xl font-bold mb-4">LearnTech</h3>
+            <div className="flex items-center mb-4">
+              <img 
+                src="/lovable-uploads/f3315a41-1591-42c1-a1f2-bae47cc4f666.png" 
+                alt="LearnTech Logo" 
+                className="h-16 mr-3 bg-white p-2 rounded-lg" 
+              />
+              <h3 className="text-xl font-bold">LearnTech</h3>
+            </div>
             <p className="text-gray-400 mb-6">
               Your trusted partner for engineering admissions counselling. We help students navigate the complex world of engineering college admissions in India.
             </p>
@@ -32,11 +39,13 @@ const Footer = () => {
                 <Mail size={18} />
               </a>
               <a 
-                href="tel:+919067572205" 
+                href="https://chat.whatsapp.com/LsXIdSWapEQHNzGaaAuBpF" 
+                target="_blank" 
+                rel="noopener noreferrer"
                 className="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-learntech-blue transition-all"
-                aria-label="Phone"
+                aria-label="WhatsApp Group"
               >
-                <Phone size={18} />
+                <WhatsApp size={18} />
               </a>
             </div>
           </div>
@@ -86,6 +95,17 @@ const Footer = () => {
                   className="text-gray-400 hover:text-white transition-colors"
                 >
                   @learntech_2215
+                </a>
+              </li>
+              <li className="flex items-center">
+                <WhatsApp size={16} className="text-learntech-green mr-2" />
+                <a 
+                  href="https://chat.whatsapp.com/LsXIdSWapEQHNzGaaAuBpF" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="text-gray-400 hover:text-white transition-colors"
+                >
+                  Join WhatsApp Group
                 </a>
               </li>
             </ul>
