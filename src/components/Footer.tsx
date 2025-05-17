@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Instagram, Mail, Phone, WhatsApp } from 'lucide-react';
+import { Instagram, Mail, Phone } from 'lucide-react';
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -45,7 +45,12 @@ const Footer = () => {
                 className="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-learntech-blue transition-all"
                 aria-label="WhatsApp Group"
               >
-                <WhatsApp size={18} />
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                  <path d="M3 21l1.65-3.8a9 9 0 1 1 3.4 2.9L3 21" />
+                  <path d="M9 10a.5.5 0 0 0 1 0V9a.5.5 0 0 0-1 0v1Z" />
+                  <path d="M14 10a.5.5 0 0 0 1 0V9a.5.5 0 0 0-1 0v1Z" />
+                  <path d="M9.5 15.5c1.333.667 3.667.667 5 0" />
+                </svg>
               </a>
             </div>
           </div>
@@ -98,7 +103,12 @@ const Footer = () => {
                 </a>
               </li>
               <li className="flex items-center">
-                <WhatsApp size={16} className="text-learntech-green mr-2" />
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-learntech-green mr-2">
+                  <path d="M3 21l1.65-3.8a9 9 0 1 1 3.4 2.9L3 21" />
+                  <path d="M9 10a.5.5 0 0 0 1 0V9a.5.5 0 0 0-1 0v1Z" />
+                  <path d="M14 10a.5.5 0 0 0 1 0V9a.5.5 0 0 0-1 0v1Z" />
+                  <path d="M9.5 15.5c1.333.667 3.667.667 5 0" />
+                </svg>
                 <a 
                   href="https://chat.whatsapp.com/LsXIdSWapEQHNzGaaAuBpF" 
                   target="_blank" 
