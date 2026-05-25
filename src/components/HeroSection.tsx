@@ -1,7 +1,6 @@
 
 import React, { useState, useEffect } from 'react';
 import { ArrowRight } from 'lucide-react';
-import CountdownTimer from './CountdownTimer';
 import { Button } from '@/components/ui/button';
 
 const HeroSection = () => {
@@ -11,16 +10,26 @@ const HeroSection = () => {
     setIsVisible(true);
   }, []);
 
-  // Example result date - adjust as needed
-  const resultDate = new Date('2025-06-15T00:00:00');
-
   return (
-    <section id="hero" className="relative overflow-hidden bg-gradient-to-br from-white via-blue-50 to-green-50 pt-20">
+    <section id="hero" className="relative overflow-hidden pt-20">
+      {/* Background video */}
+      <video
+        autoPlay
+        muted
+        loop
+        playsInline
+        className="absolute inset-0 w-full h-full object-cover"
+      >
+        <source src="/hero-bg.mp4" type="video/mp4" />
+      </video>
+      <div className="absolute inset-0 bg-gradient-to-br from-white/85 via-blue-50/80 to-green-50/85 backdrop-blur-[2px]" />
+
       {/* Futuristic background layers */}
       <div className="absolute inset-0 bg-grid-pattern opacity-[0.07] pointer-events-none" />
       <div className="absolute top-20 -left-20 w-80 h-80 bg-learntech-blue/20 rounded-full blur-3xl animate-pulse-slow" />
       <div className="absolute bottom-10 -right-20 w-96 h-96 bg-learntech-green/20 rounded-full blur-3xl animate-pulse-slow" />
       <div className="absolute top-1/3 left-1/2 w-64 h-64 bg-blue-300/20 rounded-full blur-3xl animate-float" />
+
 
       <div className="container-custom min-h-[85vh] flex flex-col md:flex-row items-center justify-between py-12 md:py-24 relative">
         <div className={`w-full md:w-1/2 transition-all duration-1000 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}>
@@ -64,9 +73,9 @@ const HeroSection = () => {
             </a>
           </div>
 
-          <div className="glass-card p-4 inline-block hover-3d">
-            <p className="text-gray-700 font-medium mb-1">Engineering Counselling Begins In:</p>
-            <CountdownTimer targetDate={resultDate} />
+          <div className="flex flex-wrap gap-3 text-sm text-gray-600">
+            <span className="glass-card px-3 py-1.5">✅ JEE / MHT-CET / NEET Counselling</span>
+            <span className="glass-card px-3 py-1.5">🎯 Personalized Mentorship</span>
           </div>
         </div>
 
