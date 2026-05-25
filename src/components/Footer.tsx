@@ -11,19 +11,19 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12 mb-12">
           <div>
             <div className="flex items-center mb-4">
-              <img 
-                src="/lovable-uploads/f3315a41-1591-42c1-a1f2-bae47cc4f666.png" 
-                alt="LearnTech Logo" 
-                className="h-16 mr-3 bg-white p-2 rounded-lg" 
+              <img
+                src="/xtn-logo.png"
+                alt="XTN Admissions Logo"
+                className="h-14 mr-3 bg-white p-2 rounded-lg"
               />
-              <h3 className="text-xl font-bold">LearnTech</h3>
+              <h3 className="text-xl font-bold">XTN Admissions</h3>
             </div>
             <p className="text-gray-400 mb-6">
-              Your trusted partner for engineering admissions counselling. We help students navigate the complex world of engineering college admissions in India.
+              Xplorevo Tech Network — your trusted partner for engineering admissions counselling. We help students navigate the complex world of engineering college admissions in India.
             </p>
             <div className="flex space-x-4">
               <a 
-                href="https://www.instagram.com/learntech_2215/?hl=en" 
+                href="https://www.instagram.com/xtn.admissions/" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-learntech-blue transition-all"
@@ -94,12 +94,12 @@ const Footer = () => {
               <li className="flex items-center">
                 <Instagram size={16} className="text-learntech-green mr-2" />
                 <a 
-                  href="https://www.instagram.com/learntech_2215/?hl=en" 
+                  href="https://www.instagram.com/xtn.admissions/" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="text-gray-400 hover:text-white transition-colors"
                 >
-                  @learntech_2215
+                  @xtn.admissions
                 </a>
               </li>
               <li className="flex items-center">
@@ -134,7 +134,7 @@ const Footer = () => {
         
         <div className="border-t border-gray-800 pt-6 text-center">
           <p className="text-gray-500 text-sm">
-            &copy; {currentYear} LearnTech. All rights reserved.
+            &copy; {currentYear} XTN Admissions — Xplorevo Tech Network. All rights reserved.
           </p>
         </div>
       </div>
