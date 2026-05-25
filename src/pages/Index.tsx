@@ -1,5 +1,5 @@
 
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import Navbar from '@/components/Navbar';
 import HeroSection from '@/components/HeroSection';
 import WhyChooseUs from '@/components/WhyChooseUs';
@@ -9,8 +9,18 @@ import Faq from '@/components/Faq';
 import Contact from '@/components/Contact';
 import Footer from '@/components/Footer';
 import ScrollAnimation from '@/components/ScrollAnimation';
+import Loader from '@/components/Loader';
 
 const Index = () => {
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    const timer = setTimeout(() => setLoading(false), 5000);
+    return () => clearTimeout(timer);
+  }, []);
+
+  if (loading) return <Loader />;
+
   return (
     <div className="min-h-screen flex flex-col">
       <ScrollAnimation />
@@ -29,3 +39,4 @@ const Index = () => {
 };
 
 export default Index;
+
