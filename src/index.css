@@ -138,12 +138,17 @@
   from { opacity: 0; transform: perspective(800px) rotateX(20deg) translateY(40px); }
   to { opacity: 1; transform: perspective(800px) rotateX(0) translateY(0); }
 }
+@keyframes loader-bar {
+  0% { transform: translateX(-100%); }
+  100% { transform: translateX(100%); }
+}
 
 .animate-float { animation: float 6s ease-in-out infinite; }
 .animate-float-slow { animation: float-slow 4s ease-in-out infinite; }
 .animate-pulse-slow { animation: pulse-slow 5s ease-in-out infinite; }
 .animate-glow { animation: glow 3s ease-in-out infinite; }
 .animate-tilt-in { animation: tilt-in 0.9s ease-out forwards; }
+.animate-loader-bar { animation: loader-bar 1.5s ease-in-out infinite; }
 .animate-gradient {
   background-size: 200% 200%;
   animation: gradient-shift 6s ease infinite;
