@@ -52,10 +52,10 @@ const Navbar = () => {
       <div className="container-custom flex justify-between items-center">
         <div className="flex items-center">
           <div className="flex items-center mr-4">
-            <img 
-              src="/lovable-uploads/f3315a41-1591-42c1-a1f2-bae47cc4f666.png" 
-              alt="LearnTech Logo" 
-              className="h-16 md:h-20" 
+            <img
+              src="/xtn-logo.png"
+              alt="XTN Admissions Logo"
+              className="h-14 md:h-16 drop-shadow-lg transition-transform duration-300 hover:scale-105"
             />
           </div>
         </div>
