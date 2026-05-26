@@ -1,0 +1,13 @@
+{
+  "name": "XTN Admissions — Engineering Counselling",
+  "short_name": "XTN Admissions",
+  "description": "Personalized engineering admissions counselling for 12th pass students in India.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0a0f1e",
+  "theme_color": "#0a0f1e",
+  "icons": [
+    { "src": "/xtn-logo.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/xtn-logo.png", "sizes": "512x512", "type": "image/png" }
+  ]
+}
