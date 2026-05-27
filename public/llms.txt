@@ -1,0 +1,12 @@
+# XTN Admissions
+
+> Personalized engineering admissions counselling for 12th pass students in India. Expert mentorship for JEE, MHT-CET, and NEET aspirants by Xplorevo Tech Network.
+
+## Pages
+
+- [Home](/): Overview of XTN Admissions counselling services, packages, FAQs, and contact options.
+
+## Optional
+
+- [Instagram](https://www.instagram.com/xtn.admissions/): Updates and student stories.
+- [WhatsApp Group](https://chat.whatsapp.com/LsXIdSWapEQHNzGaaAuBpF): Community group for aspirants.

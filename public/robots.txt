@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://learntech-future-focus.lovable.app/sitemap.xml
+Sitemap: https://xtnadmisssions.lovable.app/sitemap.xml

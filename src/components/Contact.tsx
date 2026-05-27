@@ -27,7 +27,7 @@ const Contact = () => {
             <div className="w-14 h-14 mx-auto flex items-center justify-center rounded-2xl bg-learntech-blue/10 text-learntech-blue mb-4 group-hover:scale-110 group-hover:rotate-6 transition-transform duration-300">
               <Phone size={24} />
             </div>
-            <h4 className="font-semibold mb-1">Phone</h4>
+            <h3 className="font-semibold mb-1">Phone</h3>
             <p className="text-gray-600">+91 9067572205</p>
           </a>
 
@@ -38,7 +38,7 @@ const Contact = () => {
             <div className="w-14 h-14 mx-auto flex items-center justify-center rounded-2xl bg-learntech-blue/10 text-learntech-blue mb-4 group-hover:scale-110 group-hover:rotate-6 transition-transform duration-300">
               <Mail size={24} />
             </div>
-            <h4 className="font-semibold mb-1">Email</h4>
+            <h3 className="font-semibold mb-1">Email</h3>
             <p className="text-gray-600 break-all">learntech2215@gmail.com</p>
           </a>
 
@@ -51,7 +51,7 @@ const Contact = () => {
             <div className="w-14 h-14 mx-auto flex items-center justify-center rounded-2xl bg-learntech-blue/10 text-learntech-blue mb-4 group-hover:scale-110 group-hover:rotate-6 transition-transform duration-300">
               <Instagram size={24} />
             </div>
-            <h4 className="font-semibold mb-1">Instagram</h4>
+            <h3 className="font-semibold mb-1">Instagram</h3>
             <p className="text-gray-600">@xtn.admissions</p>
           </a>
         </div>
