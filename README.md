@@ -1,73 +1,145 @@
-# Welcome to your Lovable project
+# XTN Admissions
 
-## Project info
+> Professional Engineering Admission Guidance & Counselling Platform for Maharashtra Students
 
-**URL**: https://lovable.dev/projects/5d486293-d81e-45c1-93e7-a4fc0b7db89c
+![XTN Admissions Banner](https://via.placeholder.com/1200x400?text=XTN+Admissions)
 
-## How can I edit this code?
+## 📌 About XTN Admissions
 
-There are several ways of editing your application.
+XTN Admissions is a student-focused counselling and admission guidance platform designed to help students navigate:
 
-**Use Lovable**
+* Maharashtra CAP Rounds
+* JEE Main Counselling
+* MHT CET Admission Process
+* College Selection Strategy
+* Cutoff Analysis
+* Career Guidance
+* Seat Matrix & Option Form Filling
+* Scholarship Awareness
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/5d486293-d81e-45c1-93e7-a4fc0b7db89c) and start prompting.
+Our mission is to simplify the engineering admission process for students and parents through transparent guidance, data-driven insights, and personalized support.
 
-Changes made via Lovable will be committed automatically to this repo.
+---
 
-**Use your preferred IDE**
+## 🚀 Features
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+### 🎓 Student Counselling
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+* Personalized admission guidance
+* College shortlist generation
+* Branch prediction analysis
+* CAP round strategy support
 
-Follow these steps:
+### 📊 College & Cutoff Insights
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+* Previous year cutoff analysis
+* College comparison tools
+* Branch-wise trends
+* AI-based prediction support
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+### 📱 Modern User Experience
 
-# Step 3: Install the necessary dependencies.
-npm i
+* Fully responsive design
+* Mobile-friendly interface
+* Fast loading pages
+* SEO optimized structure
+* Smooth animations and UI
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+### 🔒 Trust & Transparency
+
+* Secure data handling
+* Clear counselling process
+* Real-time updates
+* Student-first approach
+
+---
+
+## 🛠️ Tech Stack
+
+| Technology          | Usage              |
+| ------------------- | ------------------ |
+| React.js / Next.js  | Frontend Framework |
+| Tailwind CSS        | Styling            |
+| TypeScript          | Development        |
+| Netlify / Vercel    | Deployment         |
+| Framer Motion       | Animations         |
+| Firebase / Supabase | Backend & Database |
+
+---
+
+## 📂 Project Structure
+
+```bash
+XTN-Admissions/
+│
+├── public/                # Static assets
+├── src/
+│   ├── components/        # UI Components
+│   ├── pages/             # Website pages
+│   ├── assets/            # Images & Icons
+│   ├── data/              # College & cutoff data
+│   ├── styles/            # Global styles
+│   └── utils/             # Utility functions
+│
+├── package.json
+├── tailwind.config.js
+├── netlify.toml
+└── README.md
+```
+
+---
+
+## ⚙️ Installation & Setup
+
+### 1️⃣ Clone the Repository
+
+```bash
+git clone https://github.com/yourusername/xtn-admissions.git
+```
+
+### 2️⃣ Navigate to Project Folder
+
+```bash
+cd xtn-admissions
+```
+
+### 3️⃣ Install Dependencies
+
+```bash
+npm install
+```
+
+### 4️⃣ Start Development Server
+
+```bash
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+Website will run on:
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+```bash
+http://localhost:3000
+```
 
-**Use GitHub Codespaces**
+---
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## 🌐 Deployment
 
-## What technologies are used for this project?
+### Netlify Deployment
 
-This project is built with:
+```bash
+npm run build
+```
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+Upload the generated build folder to Netlify.
 
-## How can I deploy this project?
+Or connect GitHub repository directly for automatic deployment.
 
-Simply open [Lovable](https://lovable.dev/projects/5d486293-d81e-45c1-93e7-a4fc0b7db89c) and click on Share -> Publish.
+---
 
-## Can I connect a custom domain to my Lovable project?
+## 📈 SEO Features
 
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+* Meta Tags Optimization
+* Open Graph Integration
+* Mobile Optimization
+* Fast Perfor
