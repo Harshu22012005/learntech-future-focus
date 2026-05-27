@@ -86,6 +86,8 @@ const Navbar = () => {
         <div className="md:hidden">
           <button
             onClick={toggleMenu}
+            aria-label={isOpen ? "Close menu" : "Open menu"}
+            aria-expanded={isOpen}
             className="text-gray-700 hover:text-learntech-blue p-2"
           >
             {isOpen ? <X size={24} /> : <Menu size={24} />}
