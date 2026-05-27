@@ -21,9 +21,9 @@ const Loader = () => {
           />
         </div>
 
-        <h2 className="mt-8 text-2xl md:text-3xl font-bold text-gradient animate-gradient">
+        <h1 className="mt-8 text-2xl md:text-3xl font-bold text-gradient animate-gradient">
           XTN Admissions
-        </h2>
+        </h1>
         <p className="mt-2 text-sm text-gray-600 tracking-widest uppercase">
           Xplorevo Tech Network
         </p>

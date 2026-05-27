@@ -1,5 +1,6 @@
 import { useLocation } from "react-router-dom";
 import { useEffect } from "react";
+import { Helmet } from "react-helmet-async";
 
 const NotFound = () => {
   const location = useLocation();
@@ -13,6 +14,15 @@ const NotFound = () => {
 
   return (
     <div className="min-h-screen flex items-center justify-center bg-gray-100">
+      <Helmet>
+        <title>Page not found — XTN Admissions</title>
+        <meta name="description" content="The page you're looking for doesn't exist. Return to the XTN Admissions homepage to explore engineering counselling services." />
+        <meta name="robots" content="noindex, follow" />
+        <link rel="canonical" href="https://xtnadmisssions.lovable.app/404" />
+        <meta property="og:title" content="Page not found — XTN Admissions" />
+        <meta property="og:description" content="The page you're looking for doesn't exist." />
+        <meta property="og:url" content="https://xtnadmisssions.lovable.app/404" />
+      </Helmet>
       <div className="text-center">
         <h1 className="text-4xl font-bold mb-4">404</h1>
         <p className="text-xl text-gray-600 mb-4">Oops! Page not found</p>
