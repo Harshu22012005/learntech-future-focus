@@ -27,9 +27,10 @@ const Index = () => {
   return (
     <div className="min-h-screen flex flex-col">
       <Helmet>
-        <title>XTN Admissions — Engineering Counselling for 12th Pass Students in India</title>
-        <meta name="description" content="Personalized engineering admissions counselling by XTN Admissions. Expert mentorship for JEE, MHT-CET & NEET aspirants. Book a free consultation today." />
-        <link rel="canonical" href="https://learntech-future-focus.lovable.app/" />
+        <title>XTN Admissions — Engineering Counselling India</title>
+        <meta name="description" content="Personalized engineering admissions counselling by XTN Admissions. Expert mentorship for JEE, MHT-CET & NEET. Book a free consultation today." />
+        <link rel="canonical" href="https://xtnadmisssions.lovable.app/" />
+        <meta property="og:url" content="https://xtnadmisssions.lovable.app/" />
       </Helmet>
       <ScrollAnimation />
       <Navbar />
