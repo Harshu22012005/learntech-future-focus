@@ -15,11 +15,11 @@ const NotFound = () => {
   return (
     <div className="min-h-screen flex items-center justify-center bg-gray-100">
       <Helmet>
-        <title>Page not found — XTN Admissions</title>
-        <meta name="description" content="The page you're looking for doesn't exist. Return to the XTN Admissions homepage to explore engineering counselling services." />
+        <title>Page not found — Campus Counsel</title>
+        <meta name="description" content="The page you're looking for doesn't exist. Return to the Campus Counsel homepage to explore engineering admission counselling." />
         <meta name="robots" content="noindex, follow" />
         <link rel="canonical" href="https://xtnadmisssions.lovable.app/404" />
-        <meta property="og:title" content="Page not found — XTN Admissions" />
+        <meta property="og:title" content="Page not found — Campus Counsel" />
         <meta property="og:description" content="The page you're looking for doesn't exist." />
         <meta property="og:url" content="https://xtnadmisssions.lovable.app/404" />
       </Helmet>

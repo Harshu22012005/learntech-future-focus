@@ -67,17 +67,22 @@ export default {
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
 				},
-				// LearnTech custom colors
+				// Campus Counsel brand palette (token names kept for backward compat)
 				learntech: {
 					blue: {
-						DEFAULT: '#0066CC',
-						light: '#4F95DC',
-						dark: '#004C99',
+						DEFAULT: '#0a1f3d',
+						light: '#1a3a6e',
+						dark: '#06162b',
 					},
 					green: {
-						DEFAULT: '#10B981',
-						light: '#34D399',
-						dark: '#059669',
+						DEFAULT: '#1cb5b8',
+						light: '#5fd4d6',
+						dark: '#0f8a8d',
+					},
+					gold: {
+						DEFAULT: '#f5a623',
+						light: '#facd6a',
+						dark: '#c98612',
 					}
 				}
 			},

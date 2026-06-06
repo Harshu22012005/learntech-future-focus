@@ -3,9 +3,11 @@ import React, { useState, useEffect } from 'react';
 import { Helmet } from 'react-helmet-async';
 import Navbar from '@/components/Navbar';
 import HeroSection from '@/components/HeroSection';
+import TrustBadges from '@/components/TrustBadges';
 import WhyChooseUs from '@/components/WhyChooseUs';
 import Features from '@/components/Features';
 import Packages from '@/components/Packages';
+import MentorshipEcosystem from '@/components/MentorshipEcosystem';
 import Faq from '@/components/Faq';
 import Contact from '@/components/Contact';
 import Footer from '@/components/Footer';
@@ -27,8 +29,8 @@ const Index = () => {
   return (
     <div className="min-h-screen flex flex-col">
       <Helmet>
-        <title>XTN Admissions — Engineering Counselling India</title>
-        <meta name="description" content="Personalized engineering admissions counselling by XTN Admissions. Expert mentorship for JEE, MHT-CET & NEET. Book a free consultation today." />
+        <title>Campus Counsel — Maharashtra Engineering Admission & CAP Round Counselling</title>
+        <meta name="description" content="Campus Counsel is Maharashtra's trusted engineering admission and career guidance platform. Expert MHT-CET, JEE & CAP Round counselling by verified mentors and faculty." />
         <link rel="canonical" href="https://xtnadmisssions.lovable.app/" />
         <meta property="og:url" content="https://xtnadmisssions.lovable.app/" />
       </Helmet>
@@ -36,8 +38,10 @@ const Index = () => {
       <Navbar />
       <main id="main">
         <HeroSection />
+        <TrustBadges />
         <WhyChooseUs />
         <Features />
+        <MentorshipEcosystem />
         <Packages />
         <Faq />
         <Contact />
