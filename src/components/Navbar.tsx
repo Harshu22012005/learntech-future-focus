@@ -3,29 +3,19 @@ import React, { useState, useEffect } from 'react';
 import { Menu, X } from 'lucide-react';
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
+import logoAsset from "@/assets/campus-counsel-logo.jpg.asset.json";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
 
   useEffect(() => {
-    const handleScroll = () => {
-      if (window.scrollY > 20) {
-        setIsScrolled(true);
-      } else {
-        setIsScrolled(false);
-      }
-    };
-
+    const handleScroll = () => setIsScrolled(window.scrollY > 20);
     window.addEventListener('scroll', handleScroll);
-    return () => {
-      window.removeEventListener('scroll', handleScroll);
-    };
+    return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
-  const toggleMenu = () => {
-    setIsOpen(!isOpen);
-  };
+  const toggleMenu = () => setIsOpen(!isOpen);
 
   const scrollToSection = (sectionId: string) => {
     const section = document.getElementById(sectionId);
@@ -38,7 +28,8 @@ const Navbar = () => {
   const navLinks = [
     { name: 'Home', sectionId: 'hero' },
     { name: 'Why Us', sectionId: 'why-us' },
-    { name: 'Features', sectionId: 'features' },
+    { name: 'Services', sectionId: 'features' },
+    { name: 'Mentorship', sectionId: 'mentorship' },
     { name: 'Packages', sectionId: 'packages' },
     { name: 'FAQs', sectionId: 'faq' },
     { name: 'Contact', sectionId: 'contact' },
@@ -50,18 +41,21 @@ const Navbar = () => {
       isScrolled && "sticky-header"
     )}>
       <div className="container-custom flex justify-between items-center">
-        <div className="flex items-center">
-          <div className="flex items-center mr-4">
-            <img
-              src="/xtn-logo.png"
-              alt="XTN Admissions Logo"
-              className="h-14 md:h-16 drop-shadow-lg transition-transform duration-300 hover:scale-105"
-            />
-          </div>
+        <div className="flex items-center gap-3">
+          <img
+            src={logoAsset.url}
+            alt="Campus Counsel — Guiding Your Engineering Journey"
+            className="h-12 md:h-14 rounded-lg drop-shadow-lg transition-transform duration-300 hover:scale-105"
+            width="56"
+            height="56"
+          />
+          <span className="hidden sm:block font-poppins font-bold text-lg md:text-xl text-learntech-blue">
+            Campus <span className="text-learntech-green">Counsel</span>
+          </span>
         </div>
 
         {/* Desktop Navigation */}
-        <nav className="hidden md:flex items-center space-x-6">
+        <nav className="hidden md:flex items-center space-x-6" aria-label="Primary">
           {navLinks.map((link) => (
             <button
               key={link.name}
@@ -71,13 +65,13 @@ const Navbar = () => {
               {link.name}
             </button>
           ))}
-          <a 
-            href="https://forms.office.com/r/szdY2H1g5b" 
-            target="_blank" 
+          <a
+            href="https://forms.office.com/r/szdY2H1g5b"
+            target="_blank"
             rel="noopener noreferrer"
           >
             <Button variant="default" className="bg-learntech-blue hover:bg-learntech-blue-dark">
-              Book Free Consultation
+              Book Free Counselling
             </Button>
           </a>
         </nav>
@@ -104,6 +98,7 @@ const Navbar = () => {
         <div className="flex justify-end p-4">
           <button
             onClick={toggleMenu}
+            aria-label="Close menu"
             className="text-gray-700 hover:text-learntech-blue p-2"
           >
             <X size={24} />
@@ -120,14 +115,14 @@ const Navbar = () => {
               {link.name}
             </button>
           ))}
-          <a 
-            href="https://forms.office.com/r/szdY2H1g5b" 
-            target="_blank" 
+          <a
+            href="https://forms.office.com/r/szdY2H1g5b"
+            target="_blank"
             rel="noopener noreferrer"
             className="w-2/3 mt-6"
           >
             <Button className="w-full bg-learntech-blue hover:bg-learntech-blue-dark">
-              Book Free Consultation
+              Book Free Counselling
             </Button>
           </a>
         </div>

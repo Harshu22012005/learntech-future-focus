@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { Button } from '@/components/ui/button';
 import { Cookie, X } from 'lucide-react';
 
-const STORAGE_KEY = 'xtn-cookie-consent-v1';
+const STORAGE_KEY = 'campus-counsel-cookie-consent-v1';
 
 const CookieConsent = () => {
   const [visible, setVisible] = useState(false);

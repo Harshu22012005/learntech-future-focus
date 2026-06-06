@@ -16,8 +16,8 @@ const Faq = () => {
       answer: "It's best to start preparing for counselling right after your 12th board exams or entrance tests like JEE/MHT-CET. This gives you enough time to research colleges, understand the admission process, and prepare all required documents."
     },
     {
-      question: "How does LearnTech help with college selection?",
-      answer: "We analyze your entrance exam rank, preferences, career goals, and past cutoff trends to recommend colleges where you have a good chance of admission. We provide detailed information about each college's placement records, facilities, and reputation to help you make an informed decision."
+      question: "How does Campus Counsel help with college selection?",
+      answer: "We analyze your CET/JEE percentile, category, branch preference, budget, and past CAP cutoff trends to recommend Maharashtra colleges where you have a realistic chance of admission — with detailed placement, infrastructure, and reputation insights to help you decide."
     },
     {
       question: "Do you help with both JEE and MHT-CET counselling?",

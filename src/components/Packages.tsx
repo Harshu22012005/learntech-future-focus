@@ -126,7 +126,7 @@ const Packages = () => {
           
           <div className="mt-6">
             <a 
-              href="https://api.whatsapp.com/send/?phone=919067572205&text=Hi%20LearnTech,%20I'm%20interested%20in%20a%20custom%20counselling%20package.%20Can%20you%20help%20me?" 
+              href="https://api.whatsapp.com/send/?phone=919067572205&text=Hi%20Campus%20Counsel,%20I'm%20interested%20in%20a%20custom%20counselling%20package.%20Can%20you%20help%20me?" 
               target="_blank" 
               rel="noopener noreferrer"
               className="inline-flex items-center text-learntech-blue hover:underline font-medium"
