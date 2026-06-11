@@ -67,7 +67,7 @@ const WhyChooseUs = () => {
           </div>
           <div className="md:w-1/3 flex flex-col gap-3 relative w-full">
             <a
-              href="https://forms.office.com/r/szdY2H1g5b"
+              href="https://chat.whatsapp.com/ENVFwpeZDHy5vXApbukiWl"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-white text-learntech-blue font-semibold px-6 py-3 rounded-lg hover:scale-105 transition-all shadow-2xl text-center hover-3d"
