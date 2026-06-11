@@ -2,7 +2,7 @@ import React from 'react';
 
 const FloatingWhatsApp = () => (
   <a
-    href="https://chat.whatsapp.com/LsXIdSWapEQHNzGaaAuBpF"
+    href="https://chat.whatsapp.com/ENVFwpeZDHy5vXApbukiWl"
     target="_blank"
     rel="noopener noreferrer"
     aria-label="Join our WhatsApp group"

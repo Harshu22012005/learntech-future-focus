@@ -7,7 +7,7 @@
   "background_color": "#0a1f3d",
   "theme_color": "#0a1f3d",
   "icons": [
-    { "src": "/__l5e/assets-v1/52933df8-3181-4b74-8a00-f1681bb89b27/campus-counsel-logo.jpg", "sizes": "192x192", "type": "image/jpeg" },
-    { "src": "/__l5e/assets-v1/52933df8-3181-4b74-8a00-f1681bb89b27/campus-counsel-logo.jpg", "sizes": "512x512", "type": "image/jpeg" }
+    { "src": "/campus-counsel-logo.jpg", "sizes": "192x192", "type": "image/jpeg" },
+    { "src": "/campus-counsel-logo.jpg", "sizes": "512x512", "type": "image/jpeg" }
   ]
 }
