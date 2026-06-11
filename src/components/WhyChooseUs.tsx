@@ -1,8 +1,7 @@
 
 import React from 'react';
 import {
-  Award, Briefcase, Rocket, GraduationCap, Users, Sparkles,
-  UserCheck, Phone, Target, BookOpen, Clock, TrendingUp
+  Sparkles, UserCheck, Phone, Target, BookOpen, Clock, TrendingUp
 } from 'lucide-react';
 
 const WhyChooseUs = () => {
