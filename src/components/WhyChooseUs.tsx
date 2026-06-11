@@ -81,7 +81,7 @@ const WhyChooseUs = () => {
               Book Free Counselling Session
             </a>
             <a
-              href="https://chat.whatsapp.com/LsXIdSWapEQHNzGaaAuBpF"
+              href="https://chat.whatsapp.com/ENVFwpeZDHy5vXApbukiWl"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-learntech-green hover:bg-learntech-green-dark text-white font-semibold px-6 py-3 rounded-lg transition-all text-center"

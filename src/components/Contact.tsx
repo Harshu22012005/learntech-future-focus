@@ -20,12 +20,12 @@ const Contact = () => {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-5xl mx-auto">
-          <a href="tel:+919067572205" className="group glass-card p-8 text-center hover-3d">
+          <a href="tel:+919270772205" className="group glass-card p-8 text-center hover-3d">
             <div className="w-14 h-14 mx-auto flex items-center justify-center rounded-2xl bg-learntech-blue/10 text-learntech-blue mb-4 group-hover:scale-110 group-hover:rotate-6 transition-transform duration-300">
               <Phone size={24} aria-hidden="true" />
             </div>
             <h3 className="font-semibold mb-1">Phone</h3>
-            <p className="text-gray-600">+91 9067572205</p>
+            <p className="text-gray-600">+91 9270772205</p>
           </a>
 
           <a href="mailto:learntech2215@gmail.com" className="group glass-card p-8 text-center hover-3d">
@@ -37,7 +37,7 @@ const Contact = () => {
           </a>
 
           <a
-            href="https://www.instagram.com/campus_counsel_1/"
+            href="https://www.instagram.com/campus_counsel_/"
             target="_blank"
             rel="noopener noreferrer"
             className="group glass-card p-8 text-center hover-3d"
@@ -46,7 +46,7 @@ const Contact = () => {
               <Instagram size={24} aria-hidden="true" />
             </div>
             <h3 className="font-semibold mb-1">Instagram</h3>
-            <p className="text-gray-600">@campus_counsel_1</p>
+            <p className="text-gray-600">@campus_counsel_</p>
           </a>
         </div>
 
@@ -60,7 +60,7 @@ const Contact = () => {
             Book Free Counselling Session
           </a>
           <a
-            href="https://chat.whatsapp.com/LsXIdSWapEQHNzGaaAuBpF"
+            href="https://chat.whatsapp.com/ENVFwpeZDHy5vXApbukiWl"
             target="_blank"
             rel="noopener noreferrer"
             className="btn-secondary text-center hover-3d flex items-center justify-center gap-2"

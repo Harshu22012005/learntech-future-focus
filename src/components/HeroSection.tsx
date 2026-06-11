@@ -55,7 +55,7 @@ const HeroSection = () => {
               </Button>
             </a>
             <a
-              href="https://chat.whatsapp.com/LsXIdSWapEQHNzGaaAuBpF"
+              href="https://chat.whatsapp.com/ENVFwpeZDHy5vXApbukiWl"
               target="_blank"
               rel="noopener noreferrer"
             >

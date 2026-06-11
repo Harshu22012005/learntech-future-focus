@@ -26,11 +26,11 @@ const Footer = () => {
             </p>
             <div className="flex space-x-4">
               <a
-                href="https://www.instagram.com/campus_counsel_1/"
+                href="https://www.instagram.com/campus_counsel_/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-learntech-blue transition-all"
-                aria-label="Instagram @campus_counsel_1"
+                aria-label="Instagram @campus_counsel_"
               >
                 <Instagram size={18} />
               </a>
@@ -42,7 +42,7 @@ const Footer = () => {
                 <Mail size={18} />
               </a>
               <a
-                href="https://chat.whatsapp.com/LsXIdSWapEQHNzGaaAuBpF"
+                href="https://chat.whatsapp.com/ENVFwpeZDHy5vXApbukiWl"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-learntech-blue transition-all"
@@ -71,8 +71,8 @@ const Footer = () => {
             <ul className="space-y-3">
               <li className="flex items-center">
                 <Phone size={16} className="text-learntech-green mr-2" aria-hidden="true" />
-                <a href="tel:+919067572205" className="text-gray-400 hover:text-white transition-colors">
-                  +91 9067572205
+                <a href="tel:+919270772205" className="text-gray-400 hover:text-white transition-colors">
+                  +91 9270772205
                 </a>
               </li>
               <li className="flex items-center">
@@ -84,18 +84,18 @@ const Footer = () => {
               <li className="flex items-center">
                 <Instagram size={16} className="text-learntech-green mr-2" aria-hidden="true" />
                 <a
-                  href="https://www.instagram.com/campus_counsel_1/"
+                  href="https://www.instagram.com/campus_counsel_/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-gray-400 hover:text-white transition-colors"
                 >
-                  @campus_counsel_1
+                  @campus_counsel_
                 </a>
               </li>
               <li className="flex items-center">
                 <MessageSquare size={16} className="text-learntech-green mr-2" aria-hidden="true" />
                 <a
-                  href="https://chat.whatsapp.com/LsXIdSWapEQHNzGaaAuBpF"
+                  href="https://chat.whatsapp.com/ENVFwpeZDHy5vXApbukiWl"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-gray-400 hover:text-white transition-colors"

@@ -69,7 +69,7 @@ const Faq = () => {
           <p className="text-gray-600 mb-4">Still have questions? Get in touch with us directly.</p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a 
-              href="https://api.whatsapp.com/send/?phone=919067572205&text&type=phone_number" 
+              href="https://api.whatsapp.com/send/?phone=919270772205&text&type=phone_number" 
               target="_blank" 
               rel="noopener noreferrer"
               className="btn-secondary flex items-center justify-center gap-2"
