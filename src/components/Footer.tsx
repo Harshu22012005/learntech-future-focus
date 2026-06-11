@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { Instagram, Mail, Phone, MessageSquare } from 'lucide-react';
-import logoAsset from "@/assets/campus-counsel-logo.jpg.asset.json";
+const logoUrl = "/campus-counsel-logo.jpg";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -13,7 +13,7 @@ const Footer = () => {
           <div>
             <div className="flex items-center mb-4">
               <img
-                src={logoAsset.url}
+                src={logoUrl}
                 alt="Campus Counsel Logo"
                 className="h-14 w-14 rounded-lg mr-3 object-cover"
                 width="56"

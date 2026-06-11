@@ -43,7 +43,7 @@ const Navbar = () => {
       <div className="container-custom flex justify-between items-center">
         <div className="flex items-center gap-3">
           <img
-            src={logoAsset.url}
+            src={logoUrl}
             alt="Campus Counsel — Guiding Your Engineering Journey"
             className="h-12 md:h-14 rounded-lg drop-shadow-lg transition-transform duration-300 hover:scale-105"
             width="56"

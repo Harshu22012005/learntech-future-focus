@@ -2,7 +2,7 @@
 import React, { useState, useEffect } from 'react';
 import { ArrowRight } from 'lucide-react';
 import { Button } from '@/components/ui/button';
-import logoAsset from "@/assets/campus-counsel-logo.jpg.asset.json";
+const logoUrl = "/campus-counsel-logo.jpg";
 
 const HeroSection = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -85,7 +85,7 @@ const HeroSection = () => {
 
             <div className="relative glass-card p-8 animate-tilt-in hover-3d">
               <img
-                src={logoAsset.url}
+                src={logoUrl}
                 alt="Campus Counsel logo"
                 className="w-full max-w-md mx-auto rounded-2xl animate-float-slow drop-shadow-2xl"
                 width="480"

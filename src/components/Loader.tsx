@@ -1,5 +1,5 @@
 import React from 'react';
-import logoAsset from "@/assets/campus-counsel-logo.jpg.asset.json";
+const logoUrl = "/campus-counsel-logo.jpg";
 
 const Loader = () => {
   return (
@@ -14,7 +14,7 @@ const Loader = () => {
           <div className="absolute inset-3 rounded-full border-2 border-learntech-green/30 border-b-learntech-green animate-spin" style={{ animationDuration: '3s', animationDirection: 'reverse' }} />
           <div className="absolute inset-6 rounded-full border border-learntech-blue/20 border-l-learntech-blue-dark animate-spin" style={{ animationDuration: '4s' }} />
           <img
-            src={logoAsset.url}
+            src={logoUrl}
             alt="Campus Counsel"
             className="w-24 h-24 object-cover rounded-xl drop-shadow-2xl animate-float-slow"
           />
