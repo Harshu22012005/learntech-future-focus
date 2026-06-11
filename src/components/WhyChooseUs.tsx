@@ -1,17 +1,11 @@
 
 import React from 'react';
 import {
-  Award, Briefcase, Rocket, GraduationCap, Users, Sparkles,
-  UserCheck, Phone, Target, BookOpen, Clock, TrendingUp
+  Sparkles, UserCheck, Phone, Target, BookOpen, Clock, TrendingUp
 } from 'lucide-react';
 
 const WhyChooseUs = () => {
   const credentials = [
-    { icon: Award, title: "NEC Finalist — IIT Bombay", description: "Recognized finalist at the National Entrepreneurship Challenge hosted by IIT Bombay, demonstrating excellence in entrepreneurship, innovation, and student leadership." },
-    { icon: Rocket, title: "Founder, LearnTech & E-CELL MESWCOE", description: "Founding member actively driving entrepreneurship initiatives, startup awareness, innovation programs, and student development activities at MESWCOE Pune." },
-    { icon: Briefcase, title: "Business Mentor — Topmate", description: "Verified mentor helping students navigate engineering admissions, career planning, higher education opportunities, and professional growth." },
-    { icon: GraduationCap, title: "Founder & CEO — Xplorevo Pvt Ltd", description: "Leading an education-focused technology venture dedicated to personalized counselling, student success, and career development." },
-    { icon: Users, title: "Campus Ambassador — IIT Mandi & IIT Guwahati", description: "Official representative responsible for student outreach, community engagement, and awareness programs for premier IIT institutions." },
     { icon: UserCheck, title: "Experienced Engineering Faculty Network", description: "Access guidance from highly experienced professors, HODs, academic mentors, and industry experts from reputed engineering colleges across Maharashtra." },
     { icon: Sparkles, title: "One-to-One Personalized Mentorship", description: "Receive customized counselling sessions tailored to your CET percentile, academic profile, budget, branch preferences, and career goals." },
     { icon: Phone, title: "Direct Faculty Consultation", description: "Get connected with experienced engineering faculties and academic experts for college selection, branch comparison, placement insights, and career guidance." },
@@ -73,7 +67,7 @@ const WhyChooseUs = () => {
           </div>
           <div className="md:w-1/3 flex flex-col gap-3 relative w-full">
             <a
-              href="https://forms.office.com/r/szdY2H1g5b"
+              href="https://chat.whatsapp.com/ENVFwpeZDHy5vXApbukiWl"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-white text-learntech-blue font-semibold px-6 py-3 rounded-lg hover:scale-105 transition-all shadow-2xl text-center hover-3d"
