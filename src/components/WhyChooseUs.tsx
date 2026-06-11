@@ -7,11 +7,6 @@ import {
 
 const WhyChooseUs = () => {
   const credentials = [
-    { icon: Award, title: "NEC Finalist — IIT Bombay", description: "Recognized finalist at the National Entrepreneurship Challenge hosted by IIT Bombay, demonstrating excellence in entrepreneurship, innovation, and student leadership." },
-    { icon: Rocket, title: "Founder, LearnTech & E-CELL MESWCOE", description: "Founding member actively driving entrepreneurship initiatives, startup awareness, innovation programs, and student development activities at MESWCOE Pune." },
-    { icon: Briefcase, title: "Business Mentor — Topmate", description: "Verified mentor helping students navigate engineering admissions, career planning, higher education opportunities, and professional growth." },
-    { icon: GraduationCap, title: "Founder & CEO — Xplorevo Pvt Ltd", description: "Leading an education-focused technology venture dedicated to personalized counselling, student success, and career development." },
-    { icon: Users, title: "Campus Ambassador — IIT Mandi & IIT Guwahati", description: "Official representative responsible for student outreach, community engagement, and awareness programs for premier IIT institutions." },
     { icon: UserCheck, title: "Experienced Engineering Faculty Network", description: "Access guidance from highly experienced professors, HODs, academic mentors, and industry experts from reputed engineering colleges across Maharashtra." },
     { icon: Sparkles, title: "One-to-One Personalized Mentorship", description: "Receive customized counselling sessions tailored to your CET percentile, academic profile, budget, branch preferences, and career goals." },
     { icon: Phone, title: "Direct Faculty Consultation", description: "Get connected with experienced engineering faculties and academic experts for college selection, branch comparison, placement insights, and career guidance." },
