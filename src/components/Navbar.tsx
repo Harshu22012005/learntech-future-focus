@@ -66,7 +66,7 @@ const Navbar = () => {
             </button>
           ))}
           <a
-            href="https://forms.office.com/r/szdY2H1g5b"
+            href="https://chat.whatsapp.com/ENVFwpeZDHy5vXApbukiWl"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -116,7 +116,7 @@ const Navbar = () => {
             </button>
           ))}
           <a
-            href="https://forms.office.com/r/szdY2H1g5b"
+            href="https://chat.whatsapp.com/ENVFwpeZDHy5vXApbukiWl"
             target="_blank"
             rel="noopener noreferrer"
             className="w-2/3 mt-6"
